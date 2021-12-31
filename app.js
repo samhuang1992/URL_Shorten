@@ -1,7 +1,8 @@
 const express = require('express')
-const exphbs = require('express-')
+const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const methodOverride = require('method-override')
+const routes = require('./routes')
 const app = express()
 
 const PORT = '3000'
@@ -15,7 +16,8 @@ app.set('view engine', 'hbs')
 app.use(bodyParser.urlencoded({extended: true}))
 // 使用method-override
 app.use(methodOverride('_method'))
-// 使用路由資料夾
+// request導入路由器
+app.use(routes)
 
 app.listen(PORT, () => {
   console.log(`APP.js is running on http://localhost:${PORT}`)
