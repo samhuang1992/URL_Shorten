@@ -26,6 +26,7 @@ router.post('/show', (req, res) => {
       res.render('show', {
         origin: req.headers.origin,
         shortenURL: data.shortenURL,
+        url:url
       })
     )
     .catch(error => console.error(error))
