@@ -1,3 +1,8 @@
+## 輸入畫面
+![image](https://github.com/samhuang1992/URL_Shorten/blob/7e1cb6880be6406b75038bb633187875ad9c4e60/image/%E8%BC%B8%E5%85%A5%E9%A0%81.png)
+## 成功畫面
+![image](https://github.com/samhuang1992/URL_Shorten/blob/7e1cb6880be6406b75038bb633187875ad9c4e60/image/%E6%88%90%E5%8A%9F%E9%A0%81.png)
+
 # 介紹
 將網址縮短的功能。
 
